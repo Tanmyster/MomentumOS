@@ -3,7 +3,7 @@ workflows:
     name: iOS Build & Archive
     instance_type: mac_mini_m1
     environment:
-      xcode: "15.0"
+      xcode: "14.3.1"
       vars:
         PROJECT_PATH: "Sources/MomentumOS/MomentumOS.xcodeproj"
         SCHEME: "MomentumOS"
