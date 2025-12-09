@@ -97,7 +97,7 @@ workflows:
 
   backend-tests:
     name: Backend tests (Node)
-    instance_type: standard
+    instance_type: linux
     environment:
       node: "18.20.0"
     
