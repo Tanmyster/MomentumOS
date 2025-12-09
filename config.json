@@ -1,0 +1,146 @@
+{
+  "appName": "MomentumOS",
+  "appDescription": "Personal Operating System for Self-Improvement",
+  "version": "1.0.0",
+  "bundleId": "com.momentumos.app",
+  "minimumIOSVersion": "16.0",
+  "targetAudience": "Males 13-30, self-improvement focused",
+  
+  "features": {
+    "core": [
+      "Habit Tracking with Streaks",
+      "Mood Logging (5-level)",
+      "Focus Timer (Pomodoro)",
+      "Workout Logging",
+      "Food Tracking",
+      "Calendar & Tasks",
+      "Daily Motivation"
+    ],
+    "premium": [
+      "AI Life Coach",
+      "Advanced Analytics",
+      "Academy Content",
+      "PDF Reports",
+      "Social Features",
+      "Ad-free"
+    ]
+  },
+  
+  "design": {
+    "theme": "Dark-first (dark mode by default, light mode optional)",
+    "primaryColors": ["Purple", "Blue", "Pink"],
+    "inspiration": ["DAWG", "Onrise"],
+    "style": "Minimal, functional-first"
+  },
+  
+  "architecture": {
+    "framework": "SwiftUI + AppIntents",
+    "dataLayer": "Local FileSystem + iCloud",
+    "persistence": "JSON + optional SwiftData",
+    "networking": "URLSession + custom API client",
+    "notifications": "UserNotifications + UNUserNotificationCenter"
+  },
+  
+  "apis": {
+    "integrations": [
+      "Apple HealthKit",
+      "Apple Calendar",
+      "Apple Health",
+      "EventKit"
+    ],
+    "external": [
+      "Todoist API (tasks)",
+      "Fitbit API (fitness)",
+      "Lifesum API (nutrition)",
+      "Custom AI Coach backend"
+    ]
+  },
+  
+  "monetization": {
+    "model": "Freemium",
+    "freeFeatures": [
+      "Habit tracking",
+      "Mood logging",
+      "Focus timer",
+      "Workout logging",
+      "Basic motivation"
+    ],
+    "premiumPrice": "$4.99/month or $49.99/year",
+    "trialPeriod": "7 days",
+    "inAppPurchases": [
+      "Theme packs",
+      "Content packs",
+      "Widget customization"
+    ]
+  },
+  
+  "modules": {
+    "Focus": {
+      "description": "Pomodoro timer with app lockdown",
+      "features": ["Timer", "App blocking", "Session tracking", "Weekly reports"],
+      "manager": "FocusManager"
+    },
+    "Mood": {
+      "description": "Daily mood tracking with insights",
+      "features": ["Mood slider", "Energy/stress logging", "Sleep tracking", "Trends"],
+      "manager": "MoodManager"
+    },
+    "Workout": {
+      "description": "Exercise logging and recovery",
+      "features": ["Manual logging", "Muscle groups", "Recovery score", "HealthKit sync"],
+      "manager": "WorkoutManager"
+    },
+    "Food": {
+      "description": "Nutrition tracking",
+      "features": ["Manual logging", "Barcode scanner", "Image recognition", "Macros"],
+      "manager": "FoodManager"
+    },
+    "Habits": {
+      "description": "Daily habit tracking",
+      "features": ["Streak tracking", "Completion %", "Habit analytics"],
+      "manager": "HabitManager"
+    },
+    "Calendar": {
+      "description": "Tasks and time blocking",
+      "features": ["Eisenhower matrix", "Routines", "Calendar sync"],
+      "manager": "CalendarManager"
+    },
+    "Motivation": {
+      "description": "Quotes and affirmations",
+      "features": ["Daily quotes", "AI affirmations", "Themed content"],
+      "manager": "MotivationManager"
+    }
+  },
+  
+  "services": {
+    "authentication": "Multi-provider (Email, Apple, Google, Facebook)",
+    "ai_coach": "Cloud-based with offline fallbacks",
+    "notifications": "Personalized gamified nudges",
+    "subscriptions": "StoreKit 2 integration",
+    "healthKit": "Full HealthKit integration",
+    "widgets": "WidgetKit + lock screen widgets",
+    "shortcuts": "Siri Shortcuts + AppIntents"
+  },
+  
+  "privacy": {
+    "encryption": "End-to-end iCloud sync",
+    "dataControl": "User controls what's collected",
+    "offlineFirst": "Core features work offline",
+    "compliance": "GDPR/CCPA ready",
+    "aiOptOut": "Users can disable AI training"
+  },
+  
+  "performance": {
+    "optimization": "Battery efficient",
+    "targetDevices": "iPhone SE and above",
+    "animationDuration": "300-500ms standard",
+    "offlineResilience": "Complete offline capability"
+  },
+  
+  "launchStrategy": {
+    "phase1": "MVP with core habits, mood, focus, workout",
+    "phase2": "AI integration, notifications, premium",
+    "phase3": "Widgets, Watch app, social",
+    "phase4": "Voice, AR/VR, expanded ecosystem"
+  }
+}
