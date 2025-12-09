@@ -19,12 +19,6 @@ workflows:
           set -e
           echo "Project root: $CM_BUILD_DIR"
 
-      - name: Resolve Swift packages
-        script: |
-          set -e
-          cd $CM_BUILD_DIR
-          swift package resolve
-
       - name: Run unit tests (simulator)
         script: |
           set -e
