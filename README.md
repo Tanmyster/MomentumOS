@@ -1,5 +1,5 @@
 # MomentumOS - Personal Operating System for Self-Improvement
-DM ME ON @tanmyster. ON DISCORD IF INTERESTED IN HELPING
+> **DM ME ON @tanmyster. ON DISCORD IF INTERESTED IN HELPING**
 
 MomentumOS is a comprehensive iOS life coaching app that combines productivity, fitness, nutrition, mood tracking, and motivation into a unified platform. Built with SwiftUI, it features an AI-powered life coach, offline-first capability, and seamless integration with Apple services.
 
